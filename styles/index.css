@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+
+body{
+    padding: 0 145px;
+}
+
+/* Nav Bar börjar */
+
+nav{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+}
+
+.nav__links ul{
+    display: flex;
+}
+
+.nav__links ul li{
+    padding: 0 15px;
+}
+
+.nav__links ul li a{
+    color: #2F281E;
+    font-size: 14px;
+    font-weight: 400;
+}
+.buttons1{ 
+    margin-left: 30px;
+}
+
+/* För knapparna */
+
+.sign_in{
+    margin-right: 10px;
+    padding: 11px 25px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    color: #173a56;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sign_up{
+    background: #FF9900;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 25px;
+}
+/* Nav bar slutar */
+
+/* Header börjar */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.left .heading{
+    font-size: 44px;
+    font-weight: 700;
+    color: #2F281E;
+    width: 518px;
+    margin-bottom: 30px;
+}
+.left .paragraph{
+    width: 458px;
+    color: #544837;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.buttons_para .get_started{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 40px;
+    background: #FF9900;
+    border-radius: 4px;
+    color: white;
+}
+
+.buttons_para .watch_video{
+    margin-left: 30px;
+    color: #FF9900;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.buttons_para .watch_video i{
+    margin-right: 10px;
+}
+/* Header  slutar */
+
+<!-- /* Del 2 börjar */ -->
+
+.feature {
+    margin-top: 110px;
+}
+
+.feature .feature_heading{
+    text-align: center;
+    color: #2F281E;
+    font-size: 36px;
+    font-weight: 700;
+    width: 540px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.feature .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+<!-- /* Del 2 slutar */ -->
+
+.feature .cards .card{
+    width: 240px;
+}
+
+/* Kort 1 */
+.feature .cards .card .icon .bg1{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background: #7752BE;    
+    border-radius: 30px;
+}
+
+.feature .cards .card .icon .bg1 .image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Kort 2 */
+.feature .cards .card .icon .bg2{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background: #FAB005;
+    border-radius: 30px;
+}
+
+.feature .cards .card .icon .bg2 .image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Kort 3 */
+.feature .cards .card .icon .bg3{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background: #F03E3D;
+    border-radius: 30px;
+}
+
+.feature .cards .card .icon .bg3 .image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Kort 4 */
+.feature .cards .card .icon .bg4{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background: #4DADF7;
+    border-radius: 30px;
+}
+
+.feature .cards .card .icon .bg4 .image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+<!-- /* Knapp SUN */ -->
+.feature .cta_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature .cta_btn a{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 34px;
+    background-color: #FF9900;
+    color: white;
+    border-radius: 5px;
+}
