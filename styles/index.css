@@ -16,7 +16,7 @@ body{
     padding: 0 145px;
 }
 
-/* Nav Bar börjar */
+/* Nav bar börjar */
 
 nav{
     padding: 25px 0;
@@ -217,4 +217,97 @@ nav{
     background-color: #FF9900;
     color: white;
     border-radius: 5px;
+}
+
+/* Design Pro */
+
+.design__pro{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.design__pro .text{
+    width: 500px;
+}
+
+.design__pro .text .text__header .sub__title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #544837;
+}
+
+.design__pro .text .text__header .title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #2F281E;
+    margin-bottom: 22px;
+}
+
+.design__pro .text .text__body{
+    margin-top: 30px;
+}
+
+.design__pro .text .text__body h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2F281E;
+    margin-bottom: 12px;
+}
+
+.design__pro .text .text__body p{
+    color: #544837;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Footer */
+footer{
+    padding: 85px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer__links{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer__links a{
+    color: #544837;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+footer .input__fields{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+footer .input__fields input{
+    height: 48px;
+    width: 325px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+footer .input__fields button{
+    width: 150px;
+    background-color: #FF9900;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 25px;
 }
